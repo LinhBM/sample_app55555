@@ -17,7 +17,43 @@
 # This would use the information in config/locales/es.yml.
 #
 # To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
+# available at http://guide.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "Ruby on Rails Tutorial Sample App"
+  english: "English"
+  vietnam: "Vietnam"
+
+  #module
+  static_pages:
+    home:
+      title: "Home"
+      description: "Sampe App"
+      homecontent: "This is the home page for the %{org} sample application."
+      org: "Ruby on Rails Tutorial"
+    
+    help:
+      title: "Help"
+      description: "Help"
+      helpcontent: "Get help %{help} on the Ruby on Rails Tutorial at the
+       To get help on this sample app, see the %{book}"
+      help: "Rails Tutorial help section"
+      book: "Ruby on Rails Tutorial book"
+
+    about:
+      title: "About"
+      description: "About"
+      aboutcontent: "The %{rails} is a %{railsbook}. And %{screencastsrails}
+        to teach web development with %{rubyonrails}
+        . This is the sample application for the tutorial."
+      rails: "Ruby on Rails Tutorial"
+      railsbook: "book"
+      screencastsrails: "screen"
+      rubyonrails: "Ruby on Rails Tutorial"
+        
+    contact:
+      title: "Contact"
+      description: "Contact"
+      contactcontent: "Contact the Ruby on Rails Tutorial
+        about the sample app at the %{tut}."
+      contact: "contact page"

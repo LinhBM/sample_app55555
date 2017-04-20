@@ -1,0 +1,6 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".description"%></h1>
+<p>
+  <%= raw t ".homecontent", org: link_to(t(".org"),
+    "http://www.railstutorial.org/") %>
+</p>

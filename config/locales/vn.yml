@@ -1,0 +1,58 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guide.rubyonrails.org/i18n.html.
+
+vn:
+  title: "huong dan su dung"
+  english: "tieng anh"
+  vietnam: "tieng viet"
+
+  #module
+  static_pages:
+    home:
+      title: "trang chu"
+      description: "xem ung dung"
+      homecontent: "day la trang chu %{org} voi mot vai vi du."
+      org: "huong dan su dung ruby on rails"
+    
+    help:
+      title: "tro giup"
+      description: "giup hieu hon ve san pham"
+      helpcontent: "voi su tro giup %{help} tren ngon ngu ruby de hieu
+        hon ve ngon ngu ruby, hay xem %{book}"
+      help: "cua rails"
+      book: "huong dan su dung"
+
+    about:
+      title: "Gioi thieu"
+      description: "Thong tin chi tiet"
+      aboutcontent: "%{rails} la mot %{railsbook}. va %{screencastsrails}
+       de day thiet ke web %{rubyonrails}. Day la mot vai vi du."
+      rails: "Ngon ngu rails"
+      railsbook: "chu de ve rails"
+      screencastsrails: "phan chieu tren rails"
+      rubyonrails: "voi ngon ngu ruby on rails"
+        
+    contact:
+      title: "Lien he"
+      description: "Lien he chi tiet"
+      contactcontent: "Lien he de duoc huong dan su dung
+        ngon ngu ruby them %{tut}."
+      contact: "trang lien he"
